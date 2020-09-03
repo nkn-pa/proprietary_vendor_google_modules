@@ -1,0 +1,12 @@
+-product/app/ModuleMetadataGooglePrebuilt/ModuleMetadataGooglePrebuilt.apk;PRESIGNED;OVERRIDES=ModuleMetadata
+-system/apex/com.google.android.conscrypt.apex;PKGNAME=com.android.conscrypt
+-system/apex/com.google.android.media.apex;PKGNAME=com.android.media
+-system/apex/com.google.android.media.swcodec.apex;PKGNAME=com.android.media.swcodec
+-system/apex/com.google.android.resolv.apex;PKGNAME=com.android.resolv
+-system/apex/com.google.android.tzdata.apex;PKGNAME=com.android.tzdata
+system/etc/permissions/GoogleDocumentsUI_permissions.xml
+system/etc/permissions/GoogleExtServices_permissions.xml
+system/etc/permissions/GooglePermissionController_permissions.xml
+-system/priv-app/GoogleDocumentsUIPrebuilt/GoogleDocumentsUIPrebuilt.apk;PRESIGNED;OVERRIDES=DocumentsUI
+-system/priv-app/GoogleExtServicesPrebuilt/GoogleExtServicesPrebuilt.apk;PRESIGNED;OVERRIDES=ExtServices
+-system/priv-app/GooglePermissionControllerPrebuilt/GooglePermissionControllerPrebuilt.apk;PRESIGNED;OVERRIDES=PermissionController
