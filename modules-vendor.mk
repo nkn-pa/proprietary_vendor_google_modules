@@ -15,20 +15,12 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/google/modules
 
-PRODUCT_COPY_FILES += \
-    vendor/google/modules/proprietary/system/etc/permissions/GoogleDocumentsUI_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/GoogleDocumentsUI_permissions.xml \
-    vendor/google/modules/proprietary/system/etc/permissions/GoogleExtServices_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/GoogleExtServices_permissions.xml \
-    vendor/google/modules/proprietary/system/etc/permissions/GooglePermissionController_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/GooglePermissionController_permissions.xml
-
 PRODUCT_PACKAGES += \
     com.android.conscrypt \
     com.android.media \
     com.android.media.swcodec \
     com.android.resolv \
     com.android.tzdata \
-    GoogleDocumentsUIPrebuilt \
-    GoogleExtServicesPrebuilt \
-    GooglePermissionControllerPrebuilt \
     ModuleMetadataGooglePrebuilt
 
 # Config

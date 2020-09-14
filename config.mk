@@ -14,8 +14,4 @@
 
 # Overlays
 PRODUCT_PACKAGES += \
-    GoogleDocumentsUIOverlay \
-    GoogleExtServicesConfigOverlay \
-    GooglePermissionControllerFrameworkOverlay \
-    GooglePermissionControllerOverlay \
     ModuleMetadataGoogleOverlay

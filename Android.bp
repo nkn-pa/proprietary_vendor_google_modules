@@ -60,42 +60,6 @@ prebuilt_apex {
 }
 
 android_app_import {
-	name: "GoogleDocumentsUIPrebuilt",
-	owner: "google",
-	apk: "proprietary/system/priv-app/GoogleDocumentsUIPrebuilt/GoogleDocumentsUIPrebuilt.apk",
-	presigned: true,
-	overrides: ["DocumentsUI"],
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "GoogleExtServicesPrebuilt",
-	owner: "google",
-	apk: "proprietary/system/priv-app/GoogleExtServicesPrebuilt/GoogleExtServicesPrebuilt.apk",
-	presigned: true,
-	overrides: ["ExtServices"],
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "GooglePermissionControllerPrebuilt",
-	owner: "google",
-	apk: "proprietary/system/priv-app/GooglePermissionControllerPrebuilt/GooglePermissionControllerPrebuilt.apk",
-	presigned: true,
-	overrides: ["PermissionController"],
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "ModuleMetadataGooglePrebuilt",
 	owner: "google",
 	apk: "proprietary/product/app/ModuleMetadataGooglePrebuilt/ModuleMetadataGooglePrebuilt.apk",
